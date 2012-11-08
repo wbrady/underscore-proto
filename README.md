@@ -3,6 +3,11 @@ underscore-proto
 
 Improvement to [underscore-prototype](https://npmjs.org/package/underscore-prototype) node.js module using the latest version of [underscore.js](http://underscorejs.org/).
 
+Install
+--------
+
+      npm install underscore-proto
+
 This module takes all the nice functions from underscore.js and puts them on the prototypes of Array, Object, and Function. So for example rather than writing:
 
       var _ = require('underscore');
@@ -21,6 +26,7 @@ You now just have to write
 `require('underscore-proto')` returns the same object from `require('underscore')` so you can still use the old methods the same way if you want.
 
 
-Run tests with
+Tests
+------
 
       npm test
