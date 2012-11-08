@@ -1,15 +1,16 @@
 {
   "name": "underscore-proto",
   "version": "0.0.1",
+  "author": "Will Brady <willgbrady@gmail.com>",
   "description": "Improvement to underscore-prototype with the latest version of underscore.js",
   "keywords": [
     "underscore",
     "prototype",
     "javascript"
   ],
-  "author": {
-    "name": "Will Brady",
-    "email": "willgbrady@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/http-server.git"
   },
   "main": "./lib/underscore_proto.js",
   "dependencies": {
@@ -21,5 +22,6 @@
   },
   "scripts": {
     "test": "mocha test/ --recursive --reporter spec"
-  }
+  },
+  "license": "MIT"
 }
