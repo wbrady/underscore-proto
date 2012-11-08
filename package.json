@@ -1,0 +1,25 @@
+{
+  "name": "underscore-proto",
+  "version": "0.0.1",
+  "description": "Improvement to underscore-prototype with the latest version of underscore.js",
+  "keywords": [
+    "underscore",
+    "prototype",
+    "javascript"
+  ],
+  "author": {
+    "name": "Will Brady",
+    "email": "willgbrady@gmail.com"
+  },
+  "main": "./lib/underscore_proto.js",
+  "dependencies": {
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "mocha": "1.7.x",
+    "should": "1.2.x"
+  },
+  "scripts": {
+    "test": "mocha test/ --recursive --reporter spec"
+  }
+}
