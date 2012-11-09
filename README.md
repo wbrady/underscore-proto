@@ -8,7 +8,7 @@ Install
 
       npm install underscore-proto
 
-This module takes all the nice array and function functions from underscore.js and puts them on the prototypes of Array and Function. Object methods are not copied because they screw up for each in loops. So for example rather than writing:
+This module takes all the nice array and function functions from underscore.js and puts them on the prototypes of Array, Object and Function. So for example rather than writing:
 
       var _ = require('underscore');
       var arr = [1, 2, 3];

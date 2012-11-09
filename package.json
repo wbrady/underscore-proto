@@ -1,6 +1,6 @@
 {
   "name": "underscore-proto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Will Brady <willgbrady@gmail.com>",
   "description": "Improvement to underscore-prototype with the latest version of underscore.js",
   "keywords": [
